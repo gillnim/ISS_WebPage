@@ -85,7 +85,7 @@ header{
 }
 
 .iss-images{
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -311,17 +311,30 @@ header{
 
 }
 
+.facts{
+    padding: 2rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $Yellow;
+
+    &__title{
+        color: $Dark-Blue;
+        padding-bottom: 1rem;
+    }
+}
+
 .space-facts {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     &__item {
         flex-direction: column;
         list-style-type: none;
-    }
-
-    &__border {
-        border-top: 0.2rem solid gray;
     }
 
     &__fact {
@@ -339,11 +352,21 @@ header{
     }
 
     &__button {
-        font-family: inherit;
-        height: 4em;
-        width: 15em;
-        position: relative;
-        left: 35em;
-        font-weight: 600;
+        background-color: $Dark-Blue;
+            color: $White;
+            height: 2rem;
+            min-width: 1.5rem;
+            border-radius: 0.4rem;
+            padding: 2.2rem 0 2rem;
+            font-size: 1.8rem;
+            display: flex;
+            align-items: center; 
+            justify-content: center;
+            width: 35%;
+        
+            &:hover {
+                background-color: $Grey;
+                color: $White;
+            }
     }
 }

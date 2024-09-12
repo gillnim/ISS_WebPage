@@ -79,7 +79,7 @@ header {
 }
 
 .iss-images {
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -270,16 +270,29 @@ header {
   width: 90%;
 }
 
+.facts {
+  padding: 2rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffa700;
+}
+.facts__title {
+  color: #24337c;
+  padding-bottom: 1rem;
+}
+
 .space-facts {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .space-facts__item {
   flex-direction: column;
   list-style-type: none;
-}
-.space-facts__border {
-  border-top: 0.2rem solid gray;
 }
 .space-facts__fact {
   margin: 1rem;
@@ -292,10 +305,19 @@ header {
   margin: 0 auto;
 }
 .space-facts__button {
-  font-family: inherit;
-  height: 4em;
-  width: 15em;
-  position: relative;
-  left: 35em;
-  font-weight: 600;
+  background-color: #24337c;
+  color: #ffffff;
+  height: 2rem;
+  min-width: 1.5rem;
+  border-radius: 0.4rem;
+  padding: 2.2rem 0 2rem;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+}
+.space-facts__button:hover {
+  background-color: #323232;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
