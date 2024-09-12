@@ -76,4 +76,34 @@ header {
   width: 60%;
   height: 43.75rem;
   border: 1px solid black;
+}
+
+.images {
+  width: 100%;
+}
+.images__carousel {
+  width: 98vw;
+  overflow: hidden;
+}
+.images__gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  animation: scroll 40s linear infinite;
+  width: 3500px;
+}
+.images__img {
+  margin-left: 1rem;
+  aspect-ratio: 1;
+  width: 10rem;
+  height: 10rem;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1750px);
+  }
 }/*# sourceMappingURL=main.css.map */

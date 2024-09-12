@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./styles/main.css">
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="./scripts/map.js" defer></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./scripts/load-images.js" type="module"></script>
 </body>
 </head>
 <body>
@@ -24,9 +26,11 @@
         </div>
     
         <div class="iss-images">
-            <h1>images</h1>
-    
+            <div class="images__carousel">
+                <div class="images__gallery"></div>
+            </div>
         </div>
+        
         <div class="space-facts">
             <h1>facts</h1>
     

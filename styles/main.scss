@@ -83,3 +83,37 @@ header{
     height: 43.75rem;
     border: 1px solid black;
 }
+
+.images {
+    width: 100%;
+  
+    &__carousel {
+      width: 98vw;
+      overflow: hidden;
+    }
+  
+    &__gallery {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      animation: scroll 40s linear infinite;
+      width: calc(250px * 14);
+    }
+  
+    &__img {
+      margin-left: 1rem;
+      aspect-ratio: 1;
+      width: 10rem;
+      height: 10rem;
+    }
+}
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+}
