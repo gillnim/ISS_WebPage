@@ -30,6 +30,7 @@ header{
     width: 100%;
     min-height: 480px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -43,6 +44,10 @@ header{
         border-right: 2px solid;
         line-height: 1.5;
         animation: typing 5s steps(60, end) forwards, blink 0.75s step-end infinite;
+    }
+
+    &__soundcloud{
+        padding: 2rem;
     }
 
 }
