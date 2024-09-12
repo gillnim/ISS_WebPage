@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>We love Space</title>
-    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
     <header>
@@ -27,13 +27,41 @@
             <h1>facts</h1>
     
         </div>
-        <div class="form">
-            <h1>form</h1>
+        <div class="chat">
+                <h2 class="chat__title">Contribute Your Space Wisdom </h2>
+                <div class="chat__container">
+                    <div class="chat__wrapper">
+                        <div class="chat__photo-container">
+                            <div class="chat__photo-wrapper" >
+                                <img class="chat__photo" src="assets/images/360_F_519325685_Wy96q7w50hNTxNjTUYyQbkQnSmHIQxjv.jpg" alt="astronaut photo">
+                            </div>
+                        </div> 
+                        <div class="chat__form-wrapper">
+                            <form class="chat__form" id="chat__form">
+                                <div class="chat__name-wrapper" >
+                                    <label class="chat__label" for="name">NAME</label>
+                                    <input class="chat__text" type="text" id="name" name="name" placeholder="Enter your name" required>
+                                </div>
+                                <div class="chat__comment-wrapper">
+                                    <label class="chat__label" for="comment">FACT</label>
+                                    <textarea class="chat__text chat__text--special" id="comment" name="comment" placeholder="Add a new comment" required></textarea>
+                                </div>
+                                <div class="chat__button-wrapper">
+                                    <button class="chat__button" type="submit">SHARE</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Element for JS -->
+                <ul class="chat__list" id="chat__list"></ul> 
+                <!-- -->
+            </section>  
     
         </div>
     </section>
     
     
-    
+    <script src="scripts/form.js"></script>
 </body>
 </html>
