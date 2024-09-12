@@ -101,6 +101,7 @@ html, body {
 }
 .chat__list {
   padding: 0;
+  margin: 0 0 2rem 0;
 }
 .chat__space-wrapper {
   padding: 0rem 3.2rem;
@@ -115,6 +116,7 @@ html, body {
   display: flex;
   justify-content: center;
   width: 10%;
+  padding-top: 2rem;
 }
 .chat__avatar {
   background-color: #ffffff;
@@ -132,11 +134,13 @@ html, body {
   font-weight: bold;
   font-size: 1.5rem;
   margin: 0;
+  padding-top: 0.8rem;
 }
 .chat__date {
   color: #ffffff;
   font-size: 1.5rem;
   margin: 0;
+  padding-top: 0.8rem;
 }
 .chat__message {
   color: #323232;

@@ -2,7 +2,7 @@ const commentsArray = [
     {
         name: "Zara Nebula",
         date: "11/02/2024",
-        comment: " Neutron stars are so dense that a sugar-cube-sized amount of material from one would weigh about a billion tons on Earth."
+        comment: " There are more stars in the universe than grains of sand on all the beaches on Earth. Scientists estimate there are about 1 septillion stars (that's a 1 followed by 24 zeros)."
     },
     {
         name: "Leo Quasar",
