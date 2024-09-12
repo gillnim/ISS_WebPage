@@ -84,6 +84,20 @@ header{
     border: 1px solid black;
 }
 
+.iss-images{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $Light-Blue;
+
+    &__title{
+        padding-bottom: 2rem;
+        color: $Violet; 
+    }
+}
+
 .images {
     width: 100%;
   
@@ -103,8 +117,8 @@ header{
     &__img {
       margin-left: 1rem;
       aspect-ratio: 1;
-      width: 10rem;
-      height: 10rem;
+      width: 20rem;
+      height: 20rem;
     }
 }
 
@@ -129,7 +143,7 @@ header{
     &__title {
         color: $Grey;
         font-size: 2rem;
-        padding: 3rem 0 0 12rem;
+        padding: 5rem 3rem;
     }
 
     &__photo-container {

@@ -78,6 +78,19 @@ header {
   border: 1px solid black;
 }
 
+.iss-images {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #7fbffb;
+}
+.iss-images__title {
+  padding-bottom: 2rem;
+  color: #632490;
+}
+
 .images {
   width: 100%;
 }
@@ -95,8 +108,8 @@ header {
 .images__img {
   margin-left: 1rem;
   aspect-ratio: 1;
-  width: 10rem;
-  height: 10rem;
+  width: 20rem;
+  height: 20rem;
 }
 
 @keyframes scroll {
@@ -117,7 +130,7 @@ header {
 .chat__title {
   color: #323232;
   font-size: 2rem;
-  padding: 3rem 0 0 12rem;
+  padding: 5rem 3rem;
 }
 .chat__photo-container {
   padding-top: 2rem;
