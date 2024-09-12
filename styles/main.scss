@@ -296,3 +296,40 @@ header{
     }
 
 }
+
+.space-facts {
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+        flex-direction: column;
+        list-style-type: none;
+    }
+
+    &__border {
+        border-top: 0.2rem solid gray;
+    }
+
+    &__fact {
+        margin: 1rem;
+        // border: 0.2rem solid $Yellow;
+        padding: 2em;
+
+    }
+
+    &__image {
+        padding-top: 1em;
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__button {
+        font-family: inherit;
+        height: 4em;
+        width: 15em;
+        position: relative;
+        left: 35em;
+        font-weight: 600;
+    }
+}
