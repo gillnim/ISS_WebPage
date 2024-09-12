@@ -1,0 +1,35 @@
+html, body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #24337c;
+  color: #ffa700;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(50, 50, 50, 0.5), rgba(50, 50, 50, 0.5)), url(../assets/hero-image.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 18.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__text {
+  width: 80%;
+  color: #ffffff;
+}
+
+.map {
+  padding: 1rem;
+}/*# sourceMappingURL=main.css.map */

@@ -1,6 +1,35 @@
 @use "./partials/font" as *;
 @use "./partials/variables" as *;
 
-.main{
+* {
+    margin: 0;
+}
+
+header{
     display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: $Dark-Blue;
+    color: $Yellow;
+}
+
+.hero{
+    background-image: linear-gradient(rgba($Grey, 0.5), rgba($Grey, 0.5)), url(../assets/hero-image.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 18.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__text{
+        width: 80%;
+        color: $White;
+    }
+}
+
+.map{
+    padding: 1rem;
 }
