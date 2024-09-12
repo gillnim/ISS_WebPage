@@ -71,7 +71,7 @@ html, body {
   padding-bottom: 3.2rem;
 }
 .chat__form {
-  padding: 1rem 0 3.2rem 3rem;
+  padding: 0.5rem 0 3.2rem 3rem;
 }
 .chat__text {
   border: 0.15rem solid #323232;
