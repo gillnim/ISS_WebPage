@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>We love Space</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="stylesheet" href="./styles/main.css">
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="./scripts/map.js" defer></script>
+</body>
 </head>
 <body>
     <header>
@@ -15,8 +19,8 @@
     </section>
     <section class="main">
         <div class="map">
-            <h1>map</h1>
-
+            <h2 class="map__title">International Space Station Tracker</h2>
+            <div id = "map"></div>
         </div>
     
         <div class="iss-images">
@@ -32,8 +36,5 @@
     
         </div>
     </section>
-    
-    
-    
-</body>
+     
 </html>

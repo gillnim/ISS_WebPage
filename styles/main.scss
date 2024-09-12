@@ -27,9 +27,27 @@ header{
     &__text{
         width: 80%;
         color: $White;
+        font-size: 1.5625rem;
     }
+
 }
 
 .map{
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $Yellow;
+
+    &__title{
+        padding: 1rem;
+        color: $Dark-Blue;
+    }
+}
+
+#map {
+    width: 95%;
+    height: 31.25rem;
+    border: 1px solid black;
 }
