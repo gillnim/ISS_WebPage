@@ -1,15 +1,16 @@
 const random = Math.floor(Math.random() * 10) + 1;
 
-export default class nasaApi {
+class nasaApi {
   constructor() {
     this.apiKey = "HYxWOndZgKlSzBNXFe35xa4aoKgdC4EUOHVsZ4Rt";
-    this.baseUrl = "https://images-api.nasa.gov/";
+    this.nasaUrl = "https://api.nasa.gov/";
+    this.imagesUrl = "https://images-api.nasa.gov/";
   }
 
   search = async (query) => {
     try {
       const response = await axios.get(
-        `${this.baseUrl}/search?q=${query}&media_type=image&page_size=20&page=${random}`
+        `${this.imagesUrl}/search?q=${query}&media_type=image&page_size=20&page=${random}`
       );
 
       const imageLinks = response.data.collection.items.map(
@@ -26,10 +27,16 @@ export default class nasaApi {
 
   getApod = async () => {
     try {
-      const response = await axios.get(`${baseUrl}planetary/apod`);
-      console.log(response);
+      const response = await axios.get(
+        `${this.nasaUrl}planetary/apod?api_key=${this.apiKey}`
+      );
+      return response.data.hdurl;
     } catch (error) {
       console.log(error);
     }
   };
 }
+
+const api = new nasaApi();
+
+export default api;
