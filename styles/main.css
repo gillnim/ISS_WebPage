@@ -1,0 +1,33 @@
+html, body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.space-facts {
+  display: flex;
+  flex-direction: column;
+}
+.space-facts__item {
+  flex-direction: column;
+  list-style-type: none;
+}
+.space-facts__border {
+  border-top: 0.2rem solid gray;
+}
+.space-facts__fact {
+  margin: 1rem;
+  padding: 2em;
+}
+.space-facts__image {
+  padding-top: 1em;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+.space-facts__button {
+  font-family: inherit;
+  height: 4em;
+  width: 15em;
+  position: relative;
+  left: 35em;
+  font-weight: 600;
+}/*# sourceMappingURL=main.css.map */
